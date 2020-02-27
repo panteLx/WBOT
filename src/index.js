@@ -88,7 +88,7 @@ async function Main() {
             if (argv.proxyURI) {
                 await page.authenticate({ username: argv.username, password: argv.password });
             }
-            page.setUserAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36");
+            page.setUserAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.123 Safari/537.36");
             await page.goto('https://web.whatsapp.com', {
                 waitUntil: 'networkidle0',
                 timeout: 0

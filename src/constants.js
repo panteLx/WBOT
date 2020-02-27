@@ -24,5 +24,6 @@ this.DEFAULT_CHROMIUM_ARGS = [
     "--disable-app-list-dismiss-on-blur",
     "--disable-accelerated-video-decode",
     "--num-raster-threads=1",
+    "--disable-web-security",
 ];
 this.DEFAULT_DATA_DIR = path.join(process.cwd(), "chromium-data");
